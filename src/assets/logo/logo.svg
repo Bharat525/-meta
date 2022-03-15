@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170px" height="36px" viewBox="0 0 170 36" version="1.1">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00652747452 0.0135102762 23.9136993 0.0135102762 23.9136993 35.4352949 0.00652747452 35.4352949"/>
+        <polygon id="path-3" points="0 0.0135102762 23.9071652 0.0135102762 23.9071652 35.4352949 0 35.4352949"/>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-61.000000, -31.000000)">
+            <g id="Group-2" transform="translate(61.000000, 31.000000)">
+                <g id="Group">
+                    <g id="Group-3" transform="translate(18.960000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"/>
+                        </mask>
+                        <g id="Clip-2"/>
+                        <path d="M7.34014436,35.4352942 C2.02742376,35.4331404 -1.62341792,29.3308685 0.740468701,23.9923513 C3.73915078,17.220048 6.95771966,10.5605261 10.25425,3.95778648 C12.1663144,0.128047396 16.5003822,-1.03403216 19.9826617,1.00686802 C23.359516,2.98589506 24.9352829,7.56281115 23.204479,11.4064521 C20.1373444,18.217981 16.8805035,24.9272363 13.6093106,31.6233078 C12.3921665,34.1147463 9.96390258,35.4364038 7.34014436,35.4352942" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"/>
+                    </g>
+                    <path d="M45.4371696,11.6 C47.5809434,15.4800263 49.695534,19.2254782 51.7337123,23.0193665 C53.7104271,26.6989215 53.0760202,30.9505958 50.2516228,33.529563 C47.4593269,36.0791708 43.346402,36.0765194 40.5941884,33.5233549 C37.7898619,30.9218185 37.1791588,26.6488036 39.1545634,22.9949866 C41.2010798,19.2096991 43.3050691,15.4610139 45.4371696,11.6" id="Fill-4" fill="#FFFFFF"/>
+                    <g id="Group-8">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"/>
+                        </mask>
+                        <g id="Clip-7"/>
+                        <path d="M7.33360032,35.4352942 C2.02087972,35.4331404 -1.62996196,29.3308685 0.733924662,23.9923513 C3.73260674,17.220048 6.95117562,10.5605261 10.247706,3.95778648 C12.1597704,0.128047396 16.4938381,-1.03403216 19.9761176,1.00686802 C23.353031,2.98589506 24.9287389,7.56281115 23.1979349,11.4064521 C20.1308003,18.217981 16.8739594,24.9272363 13.6027075,31.6233078 C12.3856224,34.1147463 9.95735854,35.4364038 7.33360032,35.4352942" id="Fill-6" fill="#FFFFFF" mask="url(#mask-4)"/>
+                    </g>
+                </g>
+                <text id="metaverse" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal" letter-spacing="-0.161066651" fill="#FFFFFF">
+                    <tspan x="59.7112062" y="24.72">metaverse</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+<div xmlns="" id="divScriptsUsed" style="display: none"/><script xmlns="" id="globalVarsDetection" src="chrome-extension://cmkdbmfndkfgebldhnkbfhlneefdaaip/js/wrs_env.js"/></svg>

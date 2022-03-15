@@ -1,0 +1,246 @@
+.open {
+  background: linear-gradient(
+    to right,
+    #4776e6,
+    #8e54e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  // border:  1px solid black;
+
+  .parent {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 80%;
+    margin: auto;
+    // border: 1px solid white;
+    .card {
+      width: 100% !important;
+      display: flex;
+      color: white;
+      .left {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 30%;
+
+        img {
+          height: 300px;
+        }
+        h2 {
+          font-weight: 900;
+          width: 70%;
+          font-size: 18px;
+          padding-top: 40px;
+        }
+      }
+
+      .right {
+        width: 70%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+
+        h2 {
+          font-weight: 700;
+          font-size: 2rem;
+          padding-top: 1rem;
+          padding-bottom: 2rem;
+          text-align: center !important;
+          // margin-bottom: 1rem;
+        }
+        p {
+          text-align: justify;
+          font-size: 14px;
+          line-height: 1.4;
+          letter-spacing: 0.4px;
+
+        }
+      }
+    }
+
+    .card-icons {
+      height: 100px;
+      align-items: center;
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      // border: 1px solid grey;
+      img {
+        height: 70px;
+      }
+    }
+  }
+
+  .banner {
+    // border: 1px solid black;
+    height: 500px;
+    background-position: center;
+    backdrop-filter: opacity(20%);
+    background-repeat: no-repeat;
+
+    .banner-card {
+      padding: 40px;
+      padding-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      // align-items: center;
+      //    border: 4px solid rgb(255, 255, 255);
+      width: 80%;
+      height: 100%;
+      margin: auto;
+      h4 {
+        font-size: 3rem;
+        color: white;
+      }
+
+      a {
+        width: 200px;
+        text-align: center;
+        padding: 10px 20px;
+        outline: 2px solid white;
+        border-radius: 25px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+
+  @keyframes scale {
+    0%{
+      opacity: 0;
+      transform: scale3d(.75,.75, 1);
+    }
+
+       70%{
+      opacity: 0;
+      transform: scale3d(.75,.75, 1);
+    }
+
+       100%{
+      opacity: 1;
+      transform: scale3d(1,1, 1);
+    }
+
+
+    
+  }
+
+
+  .left img{
+    animation: scale 1s cubic-bezier(0.39,-1.05, .58,1.95);
+    animation-delay: -0.2s;
+    transform-origin: center bottom;
+  }
+
+
+
+}
+
+// media Query
+@media screen and (max-width: 786px) {
+  .open .banner .banner-card h4{
+    font-size: 2rem;
+  }
+  .open .parent .card {
+    flex-direction: column;
+    text-align: justify !important;
+  }
+
+  .open .parent .card .left {
+    width: 100%;
+    text-align: justify !important;
+  }
+
+  .open .parent .card .right {
+    width: 100%;
+      padding: 0px !important;
+  }
+
+  .left{
+    padding: 0px !important;
+  }
+
+  .left img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .open .parent {
+    width: 100%;
+  }
+
+  .open h2 {
+    margin: auto;
+  }
+
+
+  .parent{
+    padding-top: 1rem !important;
+  }
+
+
+  // .left{
+  //     text-align: justify;
+  // }
+}
+
+// media Query
+@media screen and (max-width: 480px) {
+
+
+   .banner-card {
+     width: 90% !important;
+   }
+
+   h1{
+     font-size: 18px;
+   }
+
+  .open h2 {
+    text-align: justify !important;
+    font-size: 1.6rem !important;
+  }
+
+  .open .banner .banner-card h4 {
+    font-size: 1.3rem;
+    line-height: 1.4 !important;
+  }
+
+  .open .right h3{
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    // letter-spacing: 1px !important;
+    letter-spacing: 0px;
+
+  }
+
+  .open .banner .banner-card a {
+    // width: auto;
+  }
+
+
+
+
+}
+
+
+// media Query
+@media screen and (min-width: 786px) {
+  .left{
+    padding: 0px !important;
+    width: auto !important;
+    display: flex;
+    align-items: center;
+  }
+
+ 
+
+
+
+}

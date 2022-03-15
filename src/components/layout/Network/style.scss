@@ -1,0 +1,148 @@
+.network {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  //  height: 100vh;
+
+  .parent {
+    //  border: 1px solid white;
+    width: 80%;
+    margin: auto;
+
+    .row {
+      width: 70%;
+      margin: auto;
+      margin-bottom: 4rem;
+
+      // border: 1px solid white;
+      h2 {
+        font-weight: 700;
+        font-size: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+    }
+
+    .card-parent {
+      //  border: 1px solid white;
+      display: flex;
+      justify-content: space-around;
+      
+
+      .card {
+        padding-left: 20px;
+        padding-right: 20px;
+        //  border:  1px solid white;
+
+        h4 {
+          font-size: 20px;
+          font-weight: 700;
+          margin-top: 2rem;
+        }
+
+        img {
+          height: 100px;
+        }
+
+        p {
+          font-size: 14px;
+          // text-align: justify;
+
+          line-height: 1.4;
+          letter-spacing: 0.4px;
+        }
+      }
+
+      
+
+
+      padding-bottom: 2rem;
+    }
+
+
+     .card-parent .card:hover{
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          // outline: 1px solid grey;
+        }
+
+    .learn {
+      padding-bottom: 2rem;
+
+      .discover {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// media Query
+@media screen and (max-width: 786px) {
+  .parent {
+    width: 96% !important;
+  }
+
+  .network {
+    height: auto;
+  }
+  .network .parent .card-parent {
+    flex-direction: column;
+  }
+
+  .card-parent .card{
+    padding-bottom: 3.4rem !important;
+  }
+
+  section .learn h2 {
+    width: auto;
+  }
+
+  .network .parent .row {
+    width: auto;
+  }
+
+    .card h4{
+      margin-top: 1rem !important;
+    }
+
+
+
+}
+
+
+
+// media Query
+@media screen and (max-width: 786px) {
+
+  .parent .card-parent{
+    
+    flex-wrap: wrap !important;
+  }
+section .parent .card{
+  width: 100% !important;
+}
+
+
+}
+
+
+
+ @media only screen and (max-width:961px) {
+
+  .card-parent{
+    flex-wrap: wrap !important;
+    display: flex;
+  }
+  
+  section .parent .card{
+    width: 100% !important;
+  }
+  
+
+
+    }
