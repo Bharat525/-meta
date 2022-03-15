@@ -35,7 +35,7 @@ const Header = () => {
           <div className="img">
             <img src={Logo} alt="Metawave Studios" />
 
-            {/* <h2>Metawave Studios</h2> */}
+            <h2>Metawave Studios</h2>
 
 
           </div>
@@ -68,10 +68,10 @@ const Header = () => {
             </li> */}
 
 
-          {/* <button>
+         <button>
             <span> <Link to="/contact">Contact Us</Link>  </span>
             <div class="liquid"></div>
-          </button> */}
+          </button> 
 
 
         </ul>
