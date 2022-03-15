@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/-meta/static/css/main.75065a8d.css",
+    "main.js": "/-meta/static/js/main.636d051b.js",
+    "static/media/team-bg.jpg": "/-meta/static/media/team-bg.6fef4b35256acda8f64e.jpg",
+    "static/media/METAWAVE COLOR.svg": "/-meta/static/media/METAWAVE COLOR.5230ff40e4ca4da847bc5fc3933970da.svg",
+    "static/media/open-source.png": "/-meta/static/media/open-source.b4574a41f19c32de86fa.png",
+    "static/media/home.svg": "/-meta/static/media/home.f48cadd214645fce895d42b877feb637.svg",
+    "static/media/dapps.png": "/-meta/static/media/dapps.b966c826ed3c44acc829.png",
+    "static/media/nftIcons.png": "/-meta/static/media/nftIcons.5f513de4ff18fb0a9478.png",
+    "static/media/flat.png": "/-meta/static/media/flat.65cded3104199b685ab1.png",
+    "static/media/icons.svg": "/-meta/static/media/icons.068eff89003d7b2bc85e329f3033c360.svg",
+    "index.html": "/-meta/index.html",
+    "main.75065a8d.css.map": "/-meta/static/css/main.75065a8d.css.map",
+    "main.636d051b.js.map": "/-meta/static/js/main.636d051b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75065a8d.css",
+    "static/js/main.636d051b.js"
+  ]
+}
