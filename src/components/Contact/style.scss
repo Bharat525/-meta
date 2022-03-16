@@ -186,6 +186,8 @@
 
   button:hover .liquid {
     top: -120px;
+    background: rgba(20, 20, 20, 1);
+ transition: 0.8s ease-in-out;
   }
 
   @keyframes animate {

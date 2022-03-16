@@ -210,6 +210,8 @@ button {
  border: none;
 }
 
+
+
 button a{
   text-decoration: none;
   color: white;
@@ -261,6 +263,9 @@ button .liquid::after {
 
 button:hover .liquid {
  top: -120px;
+background: rgba(20, 20, 20, 1);
+ transition: 0.8s ease-in-out;
+
 }
 
 @keyframes animate {
@@ -272,6 +277,9 @@ button:hover .liquid {
   transform: translate(-50%, -75%) rotate(360deg);
  }
 }
+
+
+
 }
 
 @media screen and (max-width: 786px) {
