@@ -70,6 +70,8 @@ const Header = () => {
 
         </ul>
 
+        <Outlet/>
+
         {/* <div className="burger" onClick={toggleBtn}>
           <img src={Burger} alt="" />
         </div> */}
