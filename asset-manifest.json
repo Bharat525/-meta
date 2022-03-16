@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/-meta/static/css/main.75065a8d.css",
-    "main.js": "/-meta/static/js/main.6d083457.js",
+    "main.css": "/-meta/static/css/main.8c1c25ec.css",
+    "main.js": "/-meta/static/js/main.5de1b953.js",
     "static/media/team-bg.jpg": "/-meta/static/media/team-bg.6fef4b35256acda8f64e.jpg",
     "static/media/METAWAVE COLOR.svg": "/-meta/static/media/METAWAVE COLOR.5230ff40e4ca4da847bc5fc3933970da.svg",
     "static/media/open-source.png": "/-meta/static/media/open-source.b4574a41f19c32de86fa.png",
@@ -11,11 +11,12 @@
     "static/media/flat.png": "/-meta/static/media/flat.65cded3104199b685ab1.png",
     "static/media/icons.svg": "/-meta/static/media/icons.068eff89003d7b2bc85e329f3033c360.svg",
     "index.html": "/-meta/index.html",
-    "main.75065a8d.css.map": "/-meta/static/css/main.75065a8d.css.map",
-    "main.6d083457.js.map": "/-meta/static/js/main.6d083457.js.map"
+    "static/media/homeBottom.svg": "/-meta/static/media/homeBottom.0c36c50684be114e75bf9d79a14747ed.svg",
+    "main.8c1c25ec.css.map": "/-meta/static/css/main.8c1c25ec.css.map",
+    "main.5de1b953.js.map": "/-meta/static/js/main.5de1b953.js.map"
   },
   "entrypoints": [
-    "static/css/main.75065a8d.css",
-    "static/js/main.6d083457.js"
+    "static/css/main.8c1c25ec.css",
+    "static/js/main.5de1b953.js"
   ]
 }
