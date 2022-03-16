@@ -40,12 +40,6 @@ const Header = () => {
 
           </div>
         </Link>
-
-
-
-
-
-
         <ul className="links">
 
           {/* <li>
