@@ -4,6 +4,7 @@
 section {
   // border: 1px solid black;
   font-family: 'Comfortaa', cursive;
+  position: relative;
 
   .container {
     // width: 80%;
@@ -11,45 +12,45 @@ section {
     text-align: center;
     height: 80vh;
 
-    padding: 10px;
+    // padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
-    .img {
-      // img {
+    // .img {
+    //   // img {
         
-      // }
-      h1 {
-        font-size: 112px;
-        letter-spacing: 12px;
+    //   // }
+    //   h1 {
+    //     font-size: 112px;
+    //     letter-spacing: 12px;
 
-        font-weight: 900;
-        color: #1e1e1e;
+    //     font-weight: 900;
+    //     color: #1e1e1e;
       
-      }
-    }
+    //   }
+    // }
 
-    .btn-div {
-      // flex-direction: column;
-      justify-content: center;
+    // .btn-div {
+    //   // flex-direction: column;
+    //   justify-content: center;
 
-      display: flex;
+    //   display: flex;
 
-      margin-top: 28px;
-      margin-bottom: 8px;
-      padding: 6px;
+    //   margin-top: 28px;
+    //   margin-bottom: 8px;
+    //   padding: 6px;
 
-      a {
-        background-color: transparent;
-        outline: 2px solid blue;
-        padding: 10px 20px;
-        margin-left: 10px;
-        text-decoration: none;
-        // color: #E6007A;
-        border-radius: 25px;
-      }
-    }
+    //   a {
+    //     background-color: transparent;
+    //     outline: 2px solid blue;
+    //     padding: 10px 20px;
+    //     margin-left: 10px;
+    //     text-decoration: none;
+    //     // color: #E6007A;
+    //     border-radius: 25px;
+    //   }
+    // }
 
     .h2-div {
       padding: 20px;
@@ -94,27 +95,38 @@ section {
 
   // Animation Home page Wave
   .wave-top {
-  position: absolute;
+  // position: absolute;
   bottom: -1%;
   left: 0;
-  width: 100%;
+  width: 400%;
   background-size: cover;
 }
 .wave{
   position: relative;
-  top: -40% !important;
-  transform: rotate(180deg);
+  // top: -40% !important;
+  transform: rotate(360deg);
   background-position: center;
-  background-color: b
-  lack;
+  // background-color: black;
+  bottom: -500px;
   background-size: 1000px;
+ 
 
   img{
     height: auto;
     width: auto;
   }
 
+
+
 }
+
+  .waveimg{
+
+    height: 220px;
+    position: relative;
+    // border: 1px solid black;
+ background-image: url(../../../assets/home/homeBottom1.svg);
+  }
 }
 
 // media Query
@@ -123,6 +135,7 @@ section {
 
   section .container{
     width: 96%;
+  
   }
   section .container img {
     width: 100% !important;
@@ -147,19 +160,12 @@ section {
     a {
       margin: 4px;
     }
-
-
-
   }
 
   // .h2-div{
   //   h2{
   //     letter-spacing: 4px !important;
-  //   }
-
-
-
-    
+  //   }    
   // }
 }
 

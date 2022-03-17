@@ -16,9 +16,9 @@ const Footer = () => {
         <div className="ul-div2">
           <ul className="social">
             <li>
-              <a href="/">
+              <Link to="/-meta">
                 <img src={logo} alt="" />
-              </a>
+              </Link>
             </li>
             <li>
               <Link to="/term">Term & Services</Link>

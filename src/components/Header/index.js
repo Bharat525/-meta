@@ -31,7 +31,7 @@ const Header = () => {
     <header>
       <div className="header-bottom">
 
-        <Link to="/" >
+        <Link to="/-meta">
           <div className="img">
             <img src={Logo} alt="Metawave Studios" />
 
